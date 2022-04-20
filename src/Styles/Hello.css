@@ -1,0 +1,46 @@
+td{
+    padding: 10px 10px 8px 8px;
+    font-weight: 400px ;
+  }
+  th{
+    background-color:#0000000D;
+    padding-left: 8px;
+    font-weight: 700px;
+  }
+  table{
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+    border-color: rgba(0, 0, 0, 0.05);
+  }
+  .blue{
+    background-color:#F3F9FF;
+  }
+  .number{
+    width: 30px;
+    height: 34.01px;
+  }
+  body{
+    text-align: left;
+    font-size: 12px;
+    margin: 20px 0 0 20px;
+  }
+  /* .dots{
+    overflow: hidden;
+    width:300px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-size: 12px;
+  } */
+
+
+  /* .App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  label{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+  } */
