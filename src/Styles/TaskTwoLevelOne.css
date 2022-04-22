@@ -1,0 +1,17 @@
+.inputs{
+    display: flex;
+    margin-bottom: 20px;
+}
+.inputs p{
+    margin-right: 20px;
+}
+.buttons{
+    display: flex;
+}
+.buttons button{
+    margin-right: 20px;
+    padding: 10px;
+}
+.result{
+    display: flex;
+}
