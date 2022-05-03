@@ -24,23 +24,3 @@ td{
     font-size: 12px;
     margin: 20px 0 0 20px;
   }
-  /* .dots{
-    overflow: hidden;
-    width:300px;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    font-size: 12px;
-  } */
-
-
-  /* .App{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  label{
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-  } */
