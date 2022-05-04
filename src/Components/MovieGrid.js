@@ -17,10 +17,10 @@ function MovieGrid() {
 
   return (
     <div>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} margin="auto">
         {movies.map((movie) => (
-          <Grid item lg={12 / 5}>
-            <MovieCard movie={movie} />
+          <Grid item lg={12 / 5} justifyContent="center">
+            <MovieCard movie={movie} boxShadow="5px 5px 5px black" />
           </Grid>
         ))}
       </Grid>

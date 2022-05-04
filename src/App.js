@@ -1,4 +1,4 @@
-import './Styles/App.css';
+import './styles/App.css';
 import MovieGrid from "./components/MovieGrid";
 // import Counter from './Components/Counter';
 // import FirstTable from './Components/FirstTable';
@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="App">
       <MovieGrid />
-
+      
     </div>
   );
 }
