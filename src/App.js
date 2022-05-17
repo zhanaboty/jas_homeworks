@@ -1,5 +1,7 @@
 import './styles/App.css';
-import MovieGrid from "./components/MovieGrid";
+import { Route, Routes } from "react-router-dom";
+import { HomePage } from "./pages/HomePage";
+import { MoviePage } from "./pages/MoviePage";
 // import Counter from './Components/Counter';
 // import FirstTable from './Components/FirstTable';
 // import SecondTable from './Components/SecondTable';
@@ -12,8 +14,10 @@ import MovieGrid from "./components/MovieGrid";
 export default function App() {
   return (
     <div className="App">
-      <MovieGrid />
-      
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/movie/:movieId" element={<MoviePage />} />
+      </Routes>
     </div>
   );
 }
